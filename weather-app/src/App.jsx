@@ -11,7 +11,7 @@ function App() {
     <div>
       <h1>My React App</h1>
       <CityList city={city} setCity={setCity}/>
-      <CityForecast city={city} />
+      <CityForecast city={city} setCity={setCity} />
     </div>
   );
 }
